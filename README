@@ -1,0 +1,63 @@
+Introduction
+
+This program revolves around the implementation of Binary Search Trees (BSTs) to efficiently handle accident reports. The tasks involved in this project are:
+
+	*Implementing Binary Search Trees to organize and store accident reports data.
+	*Building Binary Search Trees (BSTs) from a file containing accident data.
+	*Processing user input to calculate the number of reports for a given state and date.
+	*Providing both non-recursive and recursive approaches to calculate reports count for a 	given state and date.
+	*Utilizing concepts such as file I/O, exception handling, and time complexity analysis.
+	*Ensuring efficient data retrieval and manipulation through BST operations like 		insertion and search.
+
+
+How to Run
+
+In Eclipse
+
+1. Open Eclipse and import the project.
+2. In the Project Explorer, locate the program5 class under accidentpack.
+3. Right-click on program4 and select "Run As," then choose "Run Configurations."
+4. In the "Run Configurations" window, go to the "Arguments" tab.
+5. In the "Program arguments" section, enter the full file path as an argument.
+
+Example:
+/Users/sarahkayembe/Documents/COS285/AccidentBinarySearch/accidents.csv
+
+6. Click "Run" at the bottom of the "Run Configurations" window.
+
+
+Using Command Line (CMD)
+
+
+1. Open CMD/terminal and navigate to the project's root directory.
+2. Change directory to the ACCIDENTPACK folder.
+
+For example:
+/Users/sarahkayembe/Documents/COS285/AccidentBinarySearch/src/accidentpack
+
+3. Compile all Java files using javac.
+
+For example:
+javac AccidentReader.java AccidentReport.java program4.java
+
+4. Then cd..
+5. Run the program using 'java'
+For example:
+java accidentpack.program5 /Users/sarahkayembe/Documents/COS285/ccidentBinarySearch/accidents.csv
+
+
+
+Task division:
+
+Task performed by Sarah Kayembe (Leader)
+Accident.java
+myBST.java
+README
+
+
+Task performed by Esther Greene
+program5.java
+
+
+Task performed by combined efforts
+COS285_Recursive_vs_ChildrenCount_Report.pdf
